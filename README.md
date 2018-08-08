@@ -9,6 +9,6 @@ I will study the following:
 - Functions
 - OOP 
 - DOM / API 
-- Ekma Script 2015 
+- Ecma Script 2015 
 - other
 
