@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lesson 10-15</title>
+  </head>
+  <body>
+    <script>
+      var i = 3;
+
+      while (i) {
+        alert(i--);
+      } // 3,2,1
+
+      var i = 0;
+      while (++i < 5) alert(i)//1,2,3,4
+
+      while (i++ < 5) alert(i) //1,2,3,4,5
+
+      var i;
+      for(i=2;i<11;i++){
+      if(i%2==0){
+        alert(i);
+      }
+    }
+    var i = 0;
+    while (i<3) {
+      alert("number" + i + "!");
+      i++;
+    }
+    var number;
+    while (true) {
+      number = +(prompt("Enter number!", ""));
+      if (number > 100 || number == null) break;
+    }
+    </script>
+
+    <script>
+      // var firstNumber = 2;
+      // var lastNumber = 10;
+      //
+      // for(var i = firstNumber; i <= lastNumber; i++){
+      //   if(i>1 && (i%(i-1)!=0){
+      //     alert (i);
+      //   }
+      // }//ahahahah :D :S :DD
+      //
+     </script>
+
+     <script>
+       var browser;
+
+       if(browser==="IE") {
+         alert("Oh eah IE!");
+       } else if (browser === "Chr"
+        || browser === "Fri"
+        || browser === "Saf"
+        || browser === "Op") {
+         alert("Yes!!!");
+       } else {
+         alert("We need!!");
+       }
+
+        //IF in switch
+
+        var a = + (prompt("a?", ""));
+
+        switch (a) {
+          case 0:
+            alert(0);
+            break;
+          case 1:
+            alert(1);
+            break;
+          case 2:
+          case 3:
+            alert(2,3);
+            break;
+        }
+
+     </script>
+  </body>
+</html>
